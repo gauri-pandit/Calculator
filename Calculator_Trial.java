@@ -69,7 +69,8 @@ public class Calculator_Trial {
 
 				}
 			} catch (InputMismatchException exp) {
-				System.out.println ("Exception Found  .... " + exp.printStackTrace());
+				System.out.println ("Exception Found  .... Please enter valid number");
+						//+ "" + exp.getMessage());
 			}
 			
 		}
